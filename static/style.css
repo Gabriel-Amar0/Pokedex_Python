@@ -1,0 +1,86 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+form, select {
+  margin-bottom: 20px;
+}
+
+#pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.pokemon {
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  background: white;
+  transition: transform 0.2s;
+}
+
+.pokemon:hover {
+  transform: scale(1.10);
+}
+
+.pokemon img {
+  width: 100px;
+}
+
+.pokemon-detail {
+  margin-top: 30px;
+}
+
+.PokeName{
+  text-decoration: none;
+  color: blue;
+}
+
+.button-home {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 0px;
+  left: 10px;
+  position: fixed; 
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 0px; 
+}
+
+.typePok{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-home:hover {
+  background-color: #3e8e41;
+}
