@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ pokemon.name }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  
+<header class="header">
+  <br>
+  <div class="nav-buttons">
+    {% if prev_number %}
+      <a href="{{ url_for('pokemon_detail', number=prev_number, name=prev_name) }}" class="button-next">← {{"%03d"|format(prev_number)}} {{prev_name}}</a>
+    {% endif %}
+
+    <a href="/" class="button-home" >Home</a>
+    
+    {% if next_number %}
+    <a href="{{ url_for('pokemon_detail', number=next_number, name=next_name) }}" class="button-next">{{"%03d"|format(next_number)}} {{next_name}} →</a>
+    {% endif %}
+  </div>
+  <br>
+</header>
+
+  <div class="card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+
+    <div class="cardimg" class="cardimg" style="flex: 1;">
+
+          <img src="{{ url_for('static', filename=pokemon.real) }}" alt="{{ pokemon.name }}">
+
+    </div>
+
+    <div class="pokemon-detail" style="flex: 2; min-width: 200px;">
+
+      <h2>#{{ "%03d"|format(pokemon.number) }} - {{ pokemon.name }}</h2>
+      <br>
+    
+      <strong><a style="font-size: 120%;text-align: start;">Type: </a></strong><a class="{{pokemon.type1}}"> {{ pokemon.type1 }}</a> <a class="{{ pokemon.type2 }}">{{ pokemon.type2 }}</a>
+      <p><strong>Description:</strong><br> {{ pokemon.description }}</p>
+      <p><strong>Where to find {{ pokemon.name }}:</strong><br> <i>{{ pokemon.locate }}</i></p>
+      <p><strong>Weakness:</strong></p>
+      {% for weak in pokemon.weakness %}
+        <a class="{{ weak }}">{{ weak }}</a>
+      {% endfor %}
+    </div>
+
+  </div>
+  
+</body>
+</html>

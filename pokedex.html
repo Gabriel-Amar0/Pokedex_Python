@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokédex Kanto</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header class="header">
+  <img src="{{ url_for('static', filename='pokeicon.png') }}" alt="icon.png" style="width: 100px; position: absolute; top: 50px; left: 3%;">
+  <img src="{{ url_for('static', filename='pokeicon.png') }}" alt="icon.png" style="width: 100px; position: absolute; top: 50px; right: 3%;">
+  <h1>Pokédex Kanto</h1> 
+
+  <form action="/search" method="get">
+    <input type="text" id="nameFilter" name="name" placeholder="Search By Name">
+    <input type="text" id="numberFilter" name="number" placeholder="Search By Number">
+    <select id="typeFilter">
+      <option class="Normal" value="all">All</option>
+      <option class="Normal" value="Normal">Normal</option>
+      <option class="Fire" value="Fire">Fire</option>
+      <option class="Water" value="Water">Water</option>
+      <option class="Electric" value="Electric">Electric</option>
+      <option class="Grass" value="Grass">Grass</option>
+      <option class="Ice" value="Ice">Ice</option>
+      <option class="Fighting" value="Fighting">Fighting</option>
+      <option class="Poison" value="Poison">Poison</option>
+      <option class="Ground" value="Ground">Ground</option>
+      <option class="Flying" value="Flying">Flying</option>
+      <option class="Psychic" value="Psychic">Psychic</option>
+      <option class="Bug" value="Bug">Bug</option>
+      <option class="Rock" value="Rock">Rock</option>
+      <option class="Ghost" value="Ghost">Ghost</option>
+      <option class="Dragon" value="Dragon">Dragon</option>
+      <option class="Dark" value="Dark">Dark</option>
+      <option class="Steel" value="Steel">Steel</option>
+      <option class="Fairy" value="Fairy">Fairy</option>
+    </select>
+    <button type="submit" class="button-search">Search</button>
+  </form>
+</header>
+
+  <div id="pokedex">
+    {% for p in pokemons %}
+    <div class="pokemon" data-type="{{ p.type }}" data-name="{{ p.name | lower }}" >
+      <a class="PokeName" href="{{ url_for('pokemon_detail', number=p.number) }}">
+        <img src="{{ url_for('static', filename=p.image) }}" alt="{{ p.name }}">
+        <p>#{{ "%03d"|format(p.number) }}<br>{{ p.name }}</p>
+        <a class="{{p.type1}}"> {{ p.type1 }}</a><a class="{{ p.type2 }}">{{ p.type2 }}</a>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+
+
+  <script>
+    function applyFilters() {
+      const nameInput = document.getElementById('nameFilter').value.toLowerCase();
+      const numberInput = document.getElementById('numberFilter').value;
+      const selectedType = document.getElementById('typeFilter').value;
+
+      const pokemons = document.querySelectorAll('.pokemon');
+
+      pokemons.forEach(pokemon => {
+        const nameData = pokemon.getAttribute('data-name');
+        const types = pokemon.getAttribute('data-type').split('-');
+        const numberText = pokemon.querySelector('p').innerText;
+
+        const matchesName = nameInput === "" || nameData.includes(nameInput);
+        const matchesNumber = numberInput === "" || numberText.includes(`#${numberInput.padStart(3, '0')}`) || numberText.includes(numberInput);
+        const matchesType = selectedType === "all" || types.includes(selectedType);
+
+        if (matchesName && matchesNumber && matchesType) {
+          pokemon.style.display = 'inline-block';
+        } else {
+          pokemon.style.display = 'none';
+        }
+      });
+    }
+
+    document.getElementById('nameFilter').addEventListener('input', applyFilters);
+    document.getElementById('numberFilter').addEventListener('input', applyFilters);
+    document.getElementById('typeFilter').addEventListener('change', applyFilters);
+  </script>
+
+  <div class="card" style="width: 400px;">
+    <a>
+      This page only shows the first 151 pokemons from the 1st gen of the FireRed/LeafGreen games (pokemons such as Crobat, Pichu are not registered, as well as the Dark, Steel and Fairy pokemons), the images and names present belong © 1995-2025 Nintendo/Game Freak.
+    </a>
+  </div>
+
+</body>
+</html>
