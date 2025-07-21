@@ -1,0 +1,2315 @@
+[
+    {
+        "number": 1,
+        "name": "Bulbasaur",
+        "type": "Grass-Poison",
+        "type1": "Grass",
+        "type2": "Poison",
+        "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this POKEMON.",
+        "image": "imagens/001.png",
+        "real": "imagens/bulbasaur.png",
+        "locate": "Pallet Town",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 2,
+        "name": "Ivysaur",
+        "type": "Grass-Poison",
+        "type1": "Grass",
+        "type2": "Poison",
+        "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+        "image": "imagens/002.png",
+        "real": "imagens/ivysaur.png",
+        "locate": "Evolve Bulbasaur",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 3,
+        "name": "Venusaur",
+        "type": "Grass-Poison",
+        "type1": "Grass",
+        "type2": "Poison",
+        "description": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+        "image": "imagens/003.png",
+        "real": "imagens/venusaur.png",
+        "locate": "Evolve Bulbasaur/Ivysaur",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 4,
+        "name": "Charmander",
+        "type": "Fire",
+        "type1": "Fire",
+        "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+        "image": "imagens/004.png",
+        "real": "imagens/charmander.png",
+        "locate": "Pallet Town",
+        "weakness": [
+            "Water",
+            "Ground",
+            "Rock"
+        ]
+    },
+    {
+        "number": 5,
+        "name": "Charmeleon",
+        "type": "Fire",
+        "type1": "Fire",
+        "description": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+        "image": "imagens/005.png",
+        "real": "imagens/charmeleon.png",
+        "locate": "Evolve Charmander",
+        "weakness": [
+            "Water",
+            "Ground",
+            "Rock"
+        ]
+    },
+    {
+        "number": 6,
+        "name": "Charizard",
+        "type": "Fire-Flying",
+        "type1": "Fire",
+        "type2": "Flying",
+        "description": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+        "image": "imagens/006.png",
+        "real": "imagens/charizard.png",
+        "locate": "Evolve Charmander/Charmeleon",
+        "weakness": [
+            "Water",
+            "Electric"
+            ,"Rock"
+        ]
+    },
+    {
+        "number": 7,
+        "name": "Squirtle",
+        "type": "Water",
+        "type1": "Water",
+        "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+        "image": "imagens/007.png",
+        "real": "imagens/squirtle.png",
+        "locate": "Pallet Town",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 8,
+        "name": "Wartortle",
+        "type": "Water",
+        "type1": "Water",
+        "description": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
+        "image": "imagens/008.png",
+        "real": "imagens/wartortle.png",
+        "locate": "Evolve Squirtle",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 9,
+        "name": "Blastoise",
+        "type": "Water",
+        "type1": "Water",
+        "description": "A brutal POKEMON with pressurized water jets on its shell. They are used for high speed tackles.",
+        "image": "imagens/009.png",
+        "real": "imagens/blastoise.png",
+        "locate": "Evolve Squirtle/Wartortle",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 10,
+        "name": "Caterpie",
+        "type": "Bug",
+        "type1": "Bug",
+        "description": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+        "image": "imagens/010.png",
+        "real": "imagens/caterpie.png",
+        "locate": "Route 2, 24, 25, Pattern Bush, Viridian Forest",
+        "weakness": [
+            "Flying",
+            "Rock",
+            "Fire"
+        ]
+    },
+    {
+        "number": 11,
+        "name": "Metapod",
+        "type": "Bug",
+        "type1": "Bug",
+        "description": "This POKEMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+        "image": "imagens/011.png",
+        "real": "imagens/metapod.png",
+        "locate": "Route 24, 25, Pattern Bush, Viridian Forest, Evolve Caterpie",
+        "weakness": [
+            "Flying",
+            "Rock",
+            "Fire"
+        ]
+    },
+    {
+        "number": 12,
+        "name": "Butterfree",
+        "type": "Bug-Flying",
+        "type1": "Bug",
+        "type2": "Flying",
+        "description": "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+        "image": "imagens/012.png",
+        "real": "imagens/butterfree.png",
+        "locate": "Evolve Caterpie/Metapod",
+        "weakness": [
+            "Rock",
+            "Electric",
+            "Fire",
+            "Ice",
+            "Flying"
+        ]
+    },
+    {
+        "number": 13,
+        "name": "Weedle",
+        "type": "Bug-Poison",
+        "type1": "Bug",
+        "type2": "Poison",
+        "description": "Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",
+        "image": "imagens/013.png",
+        "real": "imagens/weedle.png",
+        "locate": "Route 2, 24, 25, Pattern Bush, Viridian Forest",
+        "weakness": [
+            "Flying",
+            "Fire",
+            "Psychic",
+            "Rock"
+        ]
+    },
+    {
+        "number": 14,
+        "name": "Kakuna",
+        "type": "Bug-Poison",
+        "type1": "Bug",
+        "type2": "Poison",
+        "description": "Its hard shell protects it until it evolves into a more agile and dangerous form.",
+        "image": "imagens/014.png",
+        "real": "imagens/kakuna.png",
+        "locate": "Route 2, 24, 25, Pattern Bush, Viridian Forest, Evolve Weedle",
+        "weakness": [
+            "Flying",
+            "Fire",
+            "Psychic",
+            "Rock"
+        ]
+    },
+    {
+        "number": 15,
+        "name": "Beedrill",
+        "type": "Bug-Poison",
+        "type1": "Bug",
+        "type2": "Poison",
+        "description": "It can rush at 45 miles per hour, then sting its enemy repeatedly.",
+        "image": "imagens/015.png",
+        "real": "imagens/beedrill.png",
+        "locate": "Evolve Weedle/Kakuna",
+        "weakness": [
+            "Flying",
+            "Fire",
+            "Psychic",
+            "Rock"
+        ]
+    },
+    {
+        "number": 16,
+        "name": "Pidgey",
+        "type": "Normal-Flying",
+        "type1": "Normal",
+        "type2": "Flying",
+        "description": "A common sight in forests and woods; it flutters its wings at high speed.",
+        "image": "imagens/016.png",
+        "real": "imagens/pidgey.png",
+        "locate": "Route 1, 2, 3, 5, 6, 7, 8, 12, 13, 14, 15, 24, 25, Berry Forest, Bond Bridge, Five Isle Meadow",
+        "weakness": [
+            "Electric",
+            "Ice",
+            "Rock"
+        ]
+    },
+    {
+        "number": 17,
+        "name": "Pidgeotto",
+        "type": "Normal-Flying",
+        "type1": "Normal",
+        "type2": "Flying",
+        "description": "Very protective of its sprawling territory, it will fiercely peck at any intruder.",
+        "image": "imagens/017.png",
+        "real": "imagens/pidgeotto.png",
+        "locate": "Route 13, 14, 15, Berry Forest, Bond Bridge, Five Isle Meadow, Evolve Pidgey",
+        "weakness": [
+            "Electric",
+            "Ice",
+            "Rock"
+        ]
+    },
+    {
+        "number": 18,
+        "name": "Pidgeot",
+        "type": "Normal-Flying",
+        "type1": "Normal",
+        "type2": "Flying",
+        "description": "When hunting, it keeps its eyes on its target and flies at incredible speeds.",
+        "image": "imagens/018.png",
+        "real": "imagens/pidgeot.png",
+        "locate": "Evolve Pidgey/Pidgeotto",
+        "weakness": [
+            "Electric",
+            "Ice",
+            "Rock"
+        ]
+    },
+    {
+        "number": 19,
+        "name": "Rattata",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "Its continuously growing incisors are a constant nuisance to people and Pokemon alike.",
+        "image": "imagens/019.png",
+        "real": "imagens/rattata.png",
+        "locate": "Route 1, 2, 4, 9, 16, 17, 18, 22, Pokemon Mansion",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 20,
+        "name": "Raticate",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "Bigger and stronger than Rattata, it uses its sharp fangs to fiercely defend its territory.",
+        "image": "imagens/020.png",
+        "real": "imagens/raticate.png",
+        "locate": "Route 16, 17, 18, Pokemon Mansion, Evolve Raticate",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 21,
+        "name": "Spearow",
+        "type": "Normal-Flying",
+        "type1": "Normal",
+        "type2": "Flying",
+        "description": "Always wary, it flies around in search of any sign of danger.",
+        "image": "imagens/021.png",
+        "real": "imagens/spearow.png",
+        "locate": "Route 3, 4, 9, 10, 11, 16, 17, 18, 22, 23, Canyon Entrance, Cape Brink, Kindle Road, Mt. Ember, Ruin Valley, Treasure Beach, Water Path",
+        "weakness": [
+            "Electric",
+            "Ice",
+            "Rock"
+        ]
+    },
+    {
+        "number": 22,
+        "name": "Fearow",
+        "type": "Normal-Flying",
+        "type1": "Normal",
+        "type2": "Flying",
+        "description": "With its long neck and sharp beak, it can reach its prey even in the highest trees.",
+        "image": "imagens/022.png",
+        "real": "imagens/fearow.png",
+        "locate": "Route 17, 18, 23, Canyon Entrance, Cape Brink, Kindle Road, Mt. Ember, Ruin Valley, Sevault Canyon, Treasure Beach, Water Path, Evolve Spearow",
+        "weakness": [
+            "Electric",
+            "Ice",
+            "Rock"
+        ]
+    },
+    {
+        "number": 23,
+        "name": "Ekans",
+        "type": "Poison",
+        "type1": "Poison",
+        "description": "It can freely detach its jaw to swallow prey larger than itself.",
+        "image": "imagens/023.png",
+        "real": "imagens/ekans.png",
+        "locate": "Route 4, 8, 9, 10, 11, 23",
+        "weakness": [
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 24,
+        "name": "Arbok",
+        "type": "Poison",
+        "type1": "Poison",
+        "description": "Its intimidating pattern on its belly is meant to scare foes and warn them to stay away.",
+        "image": "imagens/024.png",
+        "real": "imagens/arbok.png",
+        "locate": "Route 23, Victory Road, Evolve Ekans",
+        "weakness": [
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 25,
+        "name": "Pikachu",
+        "type": "Electric",
+        "type1": "Electric",
+        "description": "It keeps its tail raised to monitor its surroundings and releases electric charges when threatened.",
+        "image": "imagens/025.png",
+        "real": "imagens/pikachu.png",
+        "locate": "Power Plant, Viridian Forest",
+        "weakness": [
+            "Ground"
+        ]
+    },
+    {
+        "number": 26,
+        "name": "Raichu",
+        "type": "Electric",
+        "type1": "Electric",
+        "description": "When several Raichu gather, their electric pouches charge up, making them a dangerous force.",
+        "image": "imagens/026.png",
+        "real": "imagens/raichu.png",
+        "locate": "Evolve Pikachu",
+        "weakness": [
+            "Ground"
+        ]
+    },
+    {
+        "number": 27,
+        "name": "Sandshrew",
+        "type": "Ground",
+        "type1": "Ground",
+        "description": "It burrows and hides in the desert, making it hard for predators to notice its presence.",
+        "image": "imagens/027.png",
+        "real": "imagens/sandshrew.png",
+        "locate": "Route 4, 8, 9, 10, 11, 23",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Ice"
+        ]
+    },
+    {
+        "number": 28,
+        "name": "Sandslash",
+        "type": "Ground",
+        "type1": "Ground",
+        "description": "Its fur bristles as it prepares to strike, using its sharp claws to excavate at high speed.",
+        "image": "imagens/028.png",
+        "real": "imagens/sandslash.png",
+        "locate": "Route 23, Victory Road, Evolve Sandshrew",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Ice"
+        ]
+    },
+    {
+        "number": 29,
+        "name": "Nidoran F",
+        "type": "Poison",
+        "type1": "Poison",
+        "description": "It has a timid nature, but its horns grow steadily as it matures into a fierce fighter.",
+        "image": "imagens/029.png",
+        "real": "imagens/nidoran_f.png",
+        "locate": "Route 3, 5, Underground Path 5-6, Safari Zone",
+        "weakness": [
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 30,
+        "name": "Nidorina",
+        "type": "Poison",
+        "type1": "Poison",
+        "description": "More courageous than Nidoran F, it is known to take on larger opponents in battle.",
+        "image": "imagens/030.png",
+        "real": "imagens/nidorina.png",
+        "locate": "Route 11, Safari Zone, Evolve Nidoran F",
+        "weakness": [
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 31,
+        "name": "Nidoqueen",
+        "type": "Poison-Ground",
+        "type1": "Poison",
+        "type2": "Ground",
+        "description": "Powerfully built, it can withstand harsh attacks while using its massive bulk to deliver crushing blows.",
+        "image": "imagens/031.png",
+        "real": "imagens/nidoqueen.png",
+        "locate": "Evolve Nidoran F/Nidorina",
+        "weakness": [
+            "Water",
+            "Ice",
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 32,
+        "name": "Nidoran M",
+        "type": "Poison",
+        "type1": "Poison",
+        "description": "While smaller than its female counterpart, it has an aggressive streak and sharp horns.",
+        "image": "imagens/032.png",
+        "real": "imagens/nidoran_m.png",
+        "locate": "Route 3, 5, Underground Path 5-6, Safari Zone",
+        "weakness": [
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 33,
+        "name": "Nidorino",
+        "type": "Poison",
+        "type1": "Poison",
+        "description": "Quick to anger, it uses its pointed horns to challenge foes much larger than itself.",
+        "image": "imagens/033.png",
+        "real": "imagens/nidorino.png",
+        "locate": "Route 11, Safari Zone, Evolve Nidoran M",
+        "weakness": [
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 34,
+        "name": "Nidoking",
+        "type": "Poison-Ground",
+        "type1": "Poison",
+        "type2": "Ground",
+        "description": "A fierce, powerful Pokemon, it is known to trample anything that stands in its path.",
+        "image": "imagens/034.png",
+        "real": "imagens/nidoking.png",
+        "locate": "Evolve Nidoran M/Nidorino",
+        "weakness": [
+            "Water",
+            "Ice",
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 35,
+        "name": "Clefairy",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "It is rarely seen in the wild, preferring the solitude of moonlit areas and quiet nights.",
+        "image": "imagens/035.png",
+        "real": "imagens/clefairy.png",
+        "locate": "Celadon City, Mt. Moon",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 36,
+        "name": "Clefable",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "Known for its kindness, it is said that Clefable shares its touch to bring luck to those it meets.",
+        "image": "imagens/036.png",
+        "real": "imagens/clefable.png",
+        "locate": "Evolve Clefairy",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 37,
+        "name": "Vulpix",
+        "type": "Fire",
+        "type1": "Fire",
+        "description": "Curls up its multiple tails when resting; its body burns with an inner flame.",
+        "image": "imagens/037.png",
+        "real": "imagens/vulpix.png",
+        "locate": "Route 7, 8, Pokemon Mansion",
+        "weakness": [
+            "Water",
+            "Ground",
+            "Rock"
+        ]
+    },
+    {
+        "number": 38,
+        "name": "Ninetales",
+        "type": "Fire",
+        "type1": "Fire",
+        "description": "Legendary for its beauty and long lifespan, its tails are said to hold mystical powers.",
+        "image": "imagens/038.png",
+        "real": "imagens/ninetales.png",
+        "locate": "Evolve Vulpix",
+        "weakness": [
+            "Water",
+            "Ground",
+            "Rock"
+        ]
+    },
+    {
+        "number": 39,
+        "name": "Jigglypuff",
+        "type": "Fire",
+        "type1": "Normal",
+        "description": "Its melodious voice can lull even the staunchest fighter to sleep.",
+        "image": "imagens/039.png",
+        "real": "imagens/jigglypuff.png",
+        "locate": "Route 3",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 40,
+        "name": "Wigglytuff",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "It uses its soft, balloon-like body to cushion its fall and soak up attacks.",
+        "image": "imagens/040.png",
+        "real": "imagens/wigglytuff.png",
+        "locate": "Evolve Jigglypuff",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 41,
+        "name": "Zubat",
+        "type": "Poison-Flying",
+        "type1": "Poison",
+        "type2": "Flying",
+        "description": "Constantly buzzing, it is adept at navigating in dark caves using echolocation.",
+        "image": "imagens/041.png",
+        "real": "imagens/zubat.png",
+        "locate": "Icefall Cave, Lost Cave, Mt. Moon, Rock Tunnel, Seafoam Islands, Victory Road",
+        "weakness": [
+            "Electric",
+            "Ice",
+            "Psychic",
+            "Rock"
+        ]
+    },
+    {
+        "number": 42,
+        "name": "Golbat",
+        "type": "Poison-Flying",
+        "type1": "Poison",
+        "type2": "Flying",
+        "description": "It flies in search of prey, its large mouth capable of delivering a draining bite.",
+        "image": "imagens/042.png",
+        "real": "imagens/golbat.png",
+        "locate": "Cerulean Cave, Icefall Cave, Lost Cave, Seafoam Islands, Victory Road, Evolve Zubat",
+        "weakness": [
+            "Electric",
+            "Ice",
+            "Psychic",
+            "Rock"
+        ]
+    },
+    {
+        "number": 43,
+        "name": "Oddish",
+        "type": "Grass-Poison",
+        "type1": "Grass",
+        "type2": "Poison",
+        "description": "It spends the daytime buried in soil, emerging at night to absorb moonlight.",
+        "image": "imagens/043.png",
+        "real": "imagens/oddish.png",
+        "locate": "Route 5, 6, 7, 12, 13, 14, 15, 24, 25, Berry Forest, Bond Bridge, Cape Brink, Water Path",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 44,
+        "name": "Gloom",
+        "type": "Grass-Poison",
+        "type1": "Grass",
+        "type2": "Poison",
+        "description": "A strong aroma emanates from its drooping petals, attracting both friends and foes.",
+        "image": "imagens/044.png",
+        "real": "imagens/gloom.png",
+        "locate": "Route 12, 13, 14, 15, Berry Forest, Bond Bridge, Cape Brink, Water Path, Evolve Oddish",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 45,
+        "name": "Vileplume",
+        "type": "Grass-Poison",
+        "type1": "Grass",
+        "type2": "Poison",
+        "description": "Its large, smelly flower releases toxic pollen that can incapacitate its enemies.",
+        "image": "imagens/045.png",
+        "real": "imagens/vileplume.png",
+        "locate": "Evolve Oddish/Gloom",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 46,
+        "name": "Paras",
+        "type": "Bug-Grass",
+        "type1": "Bug",
+        "type2": "Grass",
+        "description": "Lurking in damp places, it attaches to trees and absorbs nutrients via its mushroom spores.",
+        "image": "imagens/046.png",
+        "real": "imagens/paras.png",
+        "locate": "Mt. Moon, Safari Zone",
+        "weakness": [
+            "Fire",
+            "Flying",
+            "Bug",
+            "Ice"
+        ]
+    },
+    {
+        "number": 47,
+        "name": "Parasect",
+        "type": "Bug-Grass",
+        "type1": "Bug",
+        "type2": "Grass",
+        "description": "Its mushroom, now grown large, controls its actions and makes it a slow but dangerous foe.",
+        "image": "imagens/047.png",
+        "real": "imagens/parasect.png",
+        "locate": "Cerulean Cave, Safari Zone, Evolve Paras",
+        "weakness": [
+            "Fire",
+            "Flying",
+            "Bug",
+            "Ice"
+        ]
+    },
+    {
+        "number": 48,
+        "name": "Venonat",
+        "type": "Bug-Poison",
+        "type1": "Bug",
+        "type2": "Poison",
+        "description": "Shrouded in a thick coat of fur, this Pokemon relies on its keen senses more than sight.",
+        "image": "imagens/048.png",
+        "real": "imagens/venonat.png",
+        "locate": "Route 12, 13, 14, 15, Berry Forest, Bond Bridge, Safari Zone",
+        "weakness": [
+            "Flying",
+            "Rock",
+            "Fire"
+        ]
+    },
+    {
+        "number": 49,
+        "name": "Venomoth",
+        "type": "Bug-Poison",
+        "type1": "Bug",
+        "type2": "Poison",
+        "description": "This moth-like Pokemon flutters silently at night, releasing a toxic dust from its wings.",
+        "image": "imagens/049.png",
+        "real": "imagens/venomoth.png",
+        "locate": "Berry Forest, Safari Zone, Evolve Venonat",
+        "weakness": [
+            "Rock",
+            "Electric",
+            "Fire",
+            "Ice"
+        ]
+    },
+    {
+        "number": 50,
+        "name": "Diglett",
+        "type": "Ground",
+        "type1": "Ground",
+        "description": "Lives underground where it carves intricate tunnels; rarely seen above the surface.",
+        "image": "imagens/050.png",
+        "real": "imagens/diglett.png",
+        "locate": "Diglett's Cave",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Ice"
+        ]
+    },
+    {
+        "number": 51,
+        "name": "Dugtrio",
+        "type": "Ground",
+        "type1": "Ground",
+        "description": "A trio of Digletts that often appear together, working in unison underground.",
+        "image": "imagens/051.png",
+        "real": "imagens/dugtrio.png",
+        "locate": "Diglett's Cave, Evolve Diglett",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Ice"
+        ]
+    },
+    {
+        "number": 52,
+        "name": "Meowth",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "It loves coins and will often do bizarre things to get the attention of its trainer.",
+        "image": "imagens/052.png",
+        "real": "imagens/meowth.png",
+        "locate": "Route 5, 6, 7, 8, Bond Bridge, Canyon Entrance, Cape Brink, Five Isle Meadow, Kindle Road, Ruin Valley, Sevault Canyon, Treasure Beach, Water Path",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 53,
+        "name": "Persian",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "Sleek and refined, this feline prowls quietly and moves with catlike grace.",
+        "image": "imagens/053.png",
+        "real": "imagens/persian.png",
+        "locate": "Bond Bridge, Canyon Entrance, Cape Brink, Five Isle Meadow, Kindle Road, Ruin Valley, Sevault Canyon, Treasure Beach, Water Path, Evolve Meowth",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 54,
+        "name": "Psyduck",
+        "type": "Water",
+        "type1": "Water",
+        "description": "Often seen with a puzzled look, this Pokemon suddenly uses powerful psychic moves.",
+        "image": "imagens/054.png",
+        "real": "imagens/psyduck.png",
+        "locate": "Route 4, 6, 10, 11, 12, 13, 19, 20, 21, 22, 23, 24, 25, Berry Forest, Bond Bridge, Canyon Entrance, Cape Brink, Celadon City, Cerulean Cave, Cerulean City, Cinnabar Island, Five Island, Five Isle Meadow, Four Island, Fuchsia City, Green Path, Icefall Cave, Kindle Road, Memorial Pillar, One Island, Outcast Island, Pallet Town, Resort Gorgeous, Ruin Valley, Seafoam Islands, Tanoby Ruins, Trainer Tower, Treasure Beach, Vermilion City, Viridian City, Water Labyrinth, Water Path, Safari Zone",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 55,
+        "name": "Golduck",
+        "type": "Water",
+        "type1": "Water",
+        "description": "An adept swimmer that uses its psychic powers to confound foes and control water flow.",
+        "image": "imagens/055.png",
+        "real": "imagens/golduck.png",
+        "locate": "Berry Forest, Cape Brink, Cerulean Cave, Seafoam Islands, Evolve Psyduck",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 56,
+        "name": "Mankey",
+        "type": "Fighting",
+        "type1": "Fighting",
+        "description": "Always ready for battle, this feisty Pokemon attacks with a flurry of punches.",
+        "image": "imagens/056.png",
+        "real": "imagens/mankey.png",
+        "locate": "Route 3, 4, 22, 23, Rock Tunnel",
+        "weakness": [
+            "Flying",
+            "Psychic",
+            "Fairy"
+        ]
+    },
+    {
+        "number": 57,
+        "name": "Primeape",
+        "type": "Fighting",
+        "type1": "Fighting",
+        "description": "Its temper is as fierce as its strength; it will relentlessly pursue its target.",
+        "image": "imagens/057.png",
+        "real": "imagens/primeape.png",
+        "locate": "Route 23, Cerulean Cave, Victory Road, Evolve Mankey",
+        "weakness": [
+            "Flying",
+            "Psychic",
+            "Fairy"
+        ]
+    },
+    {
+        "number": 58,
+        "name": "Growlithe",
+        "type": "Fire",
+        "type1": "Fire",
+        "description": "Loyal to a fault, it will bravely defend its trainer from any threat.",
+        "image": "imagens/058.png",
+        "real": "imagens/growlithe.png",
+        "locate": "Route 7, 8, Pokemon Mansion",
+        "weakness": [
+            "Water",
+            "Ground",
+            "Rock"
+        ]
+    },
+    {
+        "number": 59,
+        "name": "Arcanine",
+        "type": "Fire",
+        "type1": "Fire",
+        "description": "Its majestic appearance belies its ferocious nature in battle.",
+        "image": "imagens/059.png",
+        "real": "imagens/arcanine.png",
+        "locate": "Evolve Growlithe",
+        "weakness": [
+            "Water",
+            "Ground",
+            "Rock"
+        ]
+    },
+    {
+        "number": 60,
+        "name": "Poliwag",
+        "type": "Water",
+        "type1": "Water",
+        "description": "A tadpole-like Pokemon known for the spiral pattern on its belly.",
+        "image": "imagens/060.png",
+        "real": "imagens/poliwag.png",
+        "locate": "Route 6, 22, 23, 25, Berry Forest, Cape Brink, Cerulean Cave, Four Island, Fuchsia City, Icefall Cave, Ruin Valley, Viridian City, Safari Zone",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 61,
+        "name": "Poliwhirl",
+        "type": "Water",
+        "type1": "Water",
+        "description": "Swirling rapidly in water, it can be hard to pinpoint by sight.",
+        "image": "imagens/061.png",
+        "real": "imagens/poliwhirl.png",
+        "locate": "Route 6, 22, 23, 25, Cape Brink, Cerulean Cave, Four Island, Icefall Cave, Ruin Valley, Viridian City, Evolve Poliwag",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 62,
+        "name": "Poliwrath",
+        "type": "Water-Fighting",
+        "type1": "Water",
+        "type2": "Fighting",
+        "description": "This muscular Pokemon combines its water abilities with formidable fighting moves.",
+        "image": "imagens/062.png",
+        "real": "imagens/poliwrath.png",
+        "locate": "Evolve Poliwag/Poliwhirl",
+        "weakness": [
+            "Electric",
+            "Flying",
+            "Psychic",
+            "Grass"
+        ]
+    },
+    {
+        "number": 63,
+        "name": "Abra",
+        "type": "Psychic",
+        "type1": "Psychic",
+        "description": "Prefers to sleep most of the time; it teleports away before opponents can react.",
+        "image": "imagens/063.png",
+        "real": "imagens/abra.png",
+        "locate": "Route 24, 25, Celadon City",
+        "weakness": [
+            "Bug",
+            "Ghost",
+            "Dark"
+        ]
+    },
+    {
+        "number": 64,
+        "name": "Kadabra",
+        "type": "Psychic",
+        "type1": "Psychic",
+        "description": "Its psychic powers have grown stronger; it constantly emits a mysterious aura.",
+        "image": "imagens/064.png",
+        "real": "imagens/kadabra.png",
+        "locate": "Cerulean Cave, Evolve Abra",
+        "weakness": [
+            "Bug",
+            "Ghost",
+            "Dark"
+        ]
+    },
+    {
+        "number": 65,
+        "name": "Alakazam",
+        "type": "Psychic",
+        "type1": "Psychic",
+        "description": "With an extremely high IQ, its psychic capabilities are among the strongest known.",
+        "image": "imagens/065.png",
+        "real": "imagens/alakazam.png",
+        "locate": "Evolve Abra/Kadabra",
+        "weakness": [
+            "Bug",
+            "Ghost",
+            "Dark"
+        ]
+    },
+    {
+        "number": 66,
+        "name": "Machop",
+        "type": "Fighting",
+        "type1": "Fighting",
+        "description": "This Pokemon trains constantly to increase its already impressive strength.",
+        "image": "imagens/066.png",
+        "real": "imagens/machop.png",
+        "locate": "Mt. Ember, Rock Tunnel, Victory Road",
+        "weakness": [
+            "Flying",
+            "Psychic",
+            "Fairy"
+        ]
+    },
+    {
+        "number": 67,
+        "name": "Machoke",
+        "type": "Fighting",
+        "type1": "Fighting",
+        "description": "Known for its physical power, it often proves its strength in intense battles.",
+        "image": "imagens/067.png",
+        "real": "imagens/machoke.png",
+        "locate": "Cerulean Cave, Mt. Ember, Victory Road, Evolve Machop",
+        "weakness": [
+            "Flying",
+            "Psychic",
+            "Fairy"
+        ]
+    },
+    {
+        "number": 68,
+        "name": "Machamp",
+        "type": "Fighting",
+        "type1": "Fighting",
+        "description": "This Pokemon uses its four powerful arms to deliver a devastating flurry of blows.",
+        "image": "imagens/068.png",
+        "real": "imagens/machamp.png",
+        "locate": "Evolve Machop/Machoke",
+        "weakness": [
+            "Flying",
+            "Psychic",
+            "Fairy"
+        ]
+    },
+    {
+        "number": 69,
+        "name": "Bellsprout",
+        "type": "Grass-Poison",
+        "type1": "Grass",
+        "type2": "Poison",
+        "description": "A carnivorous Pokemon that traps its prey with a vine whip and then devours it.",
+        "image": "imagens/069.png",
+        "real": "imagens/bellsprout.png",
+        "locate": "Route 5, 6, 7, 12, 13, 14, 15, 24, 25, Berry Forest, Bond Bridge, Cape Brink, Water Path",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 70,
+        "name": "Weepinbell",
+        "type": "Grass-Poison",
+        "type1": "Grass",
+        "type2": "Poison",
+        "description": "Swings its vine-like tentacles with surprising speed to ensnare targets.",
+        "image": "imagens/070.png",
+        "real": "imagens/weepinbell.png",
+        "locate": "Route 12, 13, 14, 15, Berry Forest, Bond Bridge, Cape Brink, Water Path, Evolve Bellsprout",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 71,
+        "name": "Victreebel",
+        "type": "Grass-Poison",
+        "type1": "Grass",
+        "type2": "Poison",
+        "description": "Lures prey with a sweet aroma before rapidly snapping it up with its large jaws.",
+        "image": "imagens/071.png",
+        "real": "imagens/victreebel.png",
+        "locate": "Evolve Bellsprout/Weepinbell",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 72,
+        "name": "Tentacool",
+        "type": "Water-Poison",
+        "type1": "Water",
+        "type2": "Poison",
+        "description": "Drifting through the waves, its tentacles carry a potent toxin capable of paralyzing foes.",
+        "image": "imagens/072.png",
+        "real": "imagens/tentacool.png",
+        "locate": "Route 4, 10, 11, 12, 13, 19, 20, 21, 24, Bond Bridge, Cerulean City, Cinnabar Island, Five Island, Five Isle Meadow, Green Path, Icefall Cave, Kindle Road, Memorial Pillar, One Island, Outcast Island, Pallet Town, Resort Gorgeous, Tanoby Ruins, Trainer Tower, Treasure Beach, Vermilion City, Water Labyrinth, Water Path",
+        "weakness": [
+            "Electric",
+            "Ground",
+            "Psychic",
+            "Grass"
+        ]
+    },
+    {
+        "number": 73,
+        "name": "Tentacruel",
+        "type": "Water-Poison",
+        "type1": "Water",
+        "type2": "Poison",
+        "description": "With its long tentacles and multiple eyes, it simultaneously attacks from every angle.",
+        "image": "imagens/073.png",
+        "real": "imagens/tentacruel.png",
+        "locate": "Bond Bridge, Five Island, Five Isle Meadow, Green Path, Icefall Cave, Kindle Road, Memorial Pillar, One Island, Outcast Island, Resort Gorgeous, Tanoby Ruins, Trainer Tower, Treasure Beach, Water Labyrinth, Water Path, Evolve Tentacool",
+        "weakness": [
+            "Electric",
+            "Ground",
+            "Psychic",
+            "Grass"
+        ]
+    },
+    {
+        "number": 74,
+        "name": "Geodude",
+        "type": "Rock-Ground",
+        "type1": "Rock",
+        "type2": "Ground",
+        "description": "Often found in mountainous regions, it uses its rocky body to block attacks.",
+        "image": "imagens/074.png",
+        "real": "imagens/geodude.png",
+        "locate": "Cerulean Cave, Kindle Road, Mt. Ember, Mt. Moon, Rock Tunnel, Sevault Canyon, Victory Road",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Fighting",
+            "Ground",
+            "Ice"
+        ]
+    },
+    {
+        "number": 75,
+        "name": "Graveler",
+        "type": "Rock-Ground",
+        "type1": "Rock",
+        "type2": "Ground",
+        "description": "When two Graveler come together, they can roll downhill to create a massive boulder.",
+        "image": "imagens/075.png",
+        "real": "imagens/graveler.png",
+        "locate": "Cerulean Cave, Kindle Road, Mt. Ember, Rock Tunnel, Sevault Canyon, Evolve Geodude",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Fighting",
+            "Ground",
+            "Ice"
+        ]
+    },
+    {
+        "number": 76,
+        "name": "Golem",
+        "type": "Rock-Ground",
+        "type1": "Rock",
+        "type2": "Ground",
+        "description": "A behemoth encased in a rugged exterior that cushions every impact it receives.",
+        "image": "imagens/076.png",
+        "real": "imagens/golem.png",
+        "locate": "Evolve Geodude/Graveler",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Fighting",
+            "Ground",
+            "Ice"
+        ]
+    },
+    {
+        "number": 77,
+        "name": "Ponyta",
+        "type": "Fire",
+        "type1": "Fire",
+        "description": "This gentle Pokemon runs freely, leaving a blazing trail in its swift wake.",
+        "image": "imagens/077.png",
+        "real": "imagens/ponyta.png",
+        "locate": "Kindle Road, Mt. Ember",
+        "weakness": [
+            "Water",
+            "Ground",
+            "Rock"
+        ]
+    },
+    {
+        "number": 78,
+        "name": "Rapidash",
+        "type": "Fire",
+        "type1": "Fire",
+        "description": "Its hooves blaze as it charges; few can keep pace with its dazzling speed.",
+        "image": "imagens/078.png",
+        "real": "imagens/rapidash.png",
+        "locate": "Kindle Road, Mt. Ember, Evolve Ponyta",
+        "weakness": [
+            "Water",
+            "Ground",
+            "Rock"
+        ]
+    },
+    {
+        "number": 79,
+        "name": "Slowpoke",
+        "type": "Water-Psychic",
+        "type1": "Water",
+        "type2": "Psychic",
+        "description": "Known for its slow nature, it's often caught napping even in the midst of battle.",
+        "image": "imagens/079.png",
+        "real": "imagens/slowpoke.png",
+        "locate": "Route 4, 6, 10, 11, 12, 13, 19, 20, 21, 22, 23, 24, 25, Berry Forest, Bond Bridge, Canyon Entrance, Cape Brink, Celadon City, Cerulean Cave, Cerulean City, Cinnabar Island, Five Island, Five Isle Meadow, Four Island, Fuchsia City, Green Path, Icefall Cave, Kindle Road, Memorial Pillar, One Island, Outcast Island, Pallet Town, Resort Gorgeous, Ruin Valley, Seafoam Islands, Trainer Tower, Treasure Beach, Vermilion City, Viridian City, Water Labyrinth, Water Path, Safari Zone",
+        "weakness": [
+            "Electric",
+            "Grass",
+            "Bug",
+            "Ghost"
+        ]
+    },
+    {
+        "number": 80,
+        "name": "Slowbro",
+        "type": "Water-Psychic",
+        "type1": "Water",
+        "type2": "Psychic",
+        "description": "Its evolved shell houses a large Shellder, and together they form a nearly unyielding defense.",
+        "image": "imagens/080.png",
+        "real": "imagens/slowbro.png",
+        "locate": "Berry Forest, Cape Brink, Cerulean Cave, Seafoam Islands, Evolve Slowpoke",
+        "weakness": [
+            "Electric",
+            "Grass",
+            "Bug",
+            "Ghost"
+        ]
+    },
+    {
+        "number": 81,
+        "name": "Magnemite",
+        "type": "Electric",
+        "type1": "Electric",
+        "description": "Floating by generating powerful magnetic fields, it absorbs metal particles from the air.",
+        "image": "imagens/081.png",
+        "real": "imagens/magnemite.png",
+        "locate": "Power Plant",
+        "weakness": [
+            "Ground"
+        ]
+    },
+    {
+        "number": 82,
+        "name": "Magneton",
+        "type": "Electric",
+        "type1": "Electric",
+        "description": "Comprised of three Magnemite joined by magnetic forces, it is a high-powered electromagnet.",
+        "image": "imagens/082.png",
+        "real": "imagens/magneton.png",
+        "locate": "Cerulean Cave, Power Plant, Evolve Magnemite",
+        "weakness": [
+            "Ground"
+        ]
+    },
+    {
+        "number": 83,
+        "name": "Farfetch'd",
+        "type": "Normal-Flying",
+        "type1": "Normal",
+        "type2": "Flying",
+        "description": "Often seen carrying a leek, it is as nimble in battle as it is in foraging for food.",
+        "image": "imagens/083.png",
+        "real": "imagens/farfetchd.png",
+        "locate": "Vermilion City",
+        "weakness": [
+            "Electric",
+            "Ice",
+            "Rock"
+        ]
+    },
+    {
+        "number": 84,
+        "name": "Doduo",
+        "type": "Normal-Flying",
+        "type1": "Normal",
+        "type2": "Flying",
+        "description": "A flightless Pokemon that runs at high speeds, compensating with its powerful legs.",
+        "image": "imagens/084.png",
+        "real": "imagens/doduo.png",
+        "locate": "Route 16, 17, 18, Safari Zone",
+        "weakness": [
+            "Electric",
+            "Ice",
+            "Rock"
+        ]
+    },
+    {
+        "number": 85,
+        "name": "Dodrio",
+        "type": "Normal-Flying",
+        "type1": "Normal",
+        "type2": "Flying",
+        "description": "With three heads working in perfect unison, it overwhelms its prey before they realize.",
+        "image": "imagens/085.png",
+        "real": "imagens/dodrio.png",
+        "locate": "Evolve Doduo",
+        "weakness": [
+            "Electric",
+            "Ice",
+            "Rock"
+        ]
+    },
+    {
+        "number": 86,
+        "name": "Seel",
+        "type": "Water",
+        "type1": "Water",
+        "description": "This Pokemon is well-adapted to life in polar regions, using its thick hide to insulate.",
+        "image": "imagens/086.png",
+        "real": "imagens/seel.png",
+        "locate": "Cinnabar Island, Icefall Cave, Seafoam Islands",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 87,
+        "name": "Dewgong",
+        "type": "Water-Ice",
+        "type1": "Water",
+        "type2": "Ice",
+        "description": "A graceful swimmer, it uses its curved tusks to break through ice in icy waters.",
+        "image": "imagens/087.png",
+        "real": "imagens/dewgong.png",
+        "locate": "Icefall Cave, Seafoam Islands, Evolve Seel",
+        "weakness": [
+            "Electric",
+            "Grass",
+            "Rock",
+            "Fighting"
+        ]
+    },
+    {
+        "number": 88,
+        "name": "Grimer",
+        "type": "Poison",
+        "type1": "Poison",
+        "description": "Born from sludge at polluting sites, its toxic body is as dangerous as it is resilient.",
+        "image": "imagens/088.png",
+        "real": "imagens/grimer.png",
+        "locate": "Celadon City, Pokemon Mansion",
+        "weakness": [
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 89,
+        "name": "Muk",
+        "type": "Poison",
+        "type1": "Poison",
+        "description": "Its amorphous body is covered in sludge that can poison anything it touches.",
+        "image": "imagens/089.png",
+        "real": "imagens/muk.png",
+        "locate": "Pokemon Mansion, Evolve Grimer",
+        "weakness": [
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 90,
+        "name": "Shellder",
+        "type": "Water",
+        "type1": "Water",
+        "description": "This bivalve Pokemon uses its hard shell to protect itself from predators in the ocean.",
+        "image": "imagens/090.png",
+        "real": "imagens/shellder.png",
+        "locate": "Cinnabar Island, Five Island, Icefall Cave, One Island, Pallet Town, Vermilion City",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 91,
+        "name": "Cloyster",
+        "type": "Water-Ice",
+        "type1": "Water",
+        "type2": "Ice",
+        "description": "Its armored shell is nearly impenetrable, and its sharp spikes can be launched in battle.",
+        "image": "imagens/091.png",
+        "real": "imagens/cloyster.png",
+        "locate": "Evolve Shellder",
+        "weakness": [
+            "Electric",
+            "Grass",
+            "Rock",
+            "Fighting"
+        ]
+    },
+    {
+        "number": 92,
+        "name": "Gastly",
+        "type": "Ghost-Poison",
+        "type1": "Ghost",
+        "type2": "Poison",
+        "description": "A gaseous Pokemon that can envelop its target in a chilling and toxic embrace.",
+        "image": "imagens/092.png",
+        "real": "imagens/gastly.png",
+        "locate": "Lost Cave, Pokemon Tower, Evolve Gastly",
+        "weakness": [
+            "Ghost",
+            "Dark",
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 93,
+        "name": "Haunter",
+        "type": "Ghost-Poison",
+        "type1": "Ghost",
+        "type2": "Poison",
+        "description": "Known for its eerie presence, it drifts silently and casts a menacing shadow.",
+        "image": "imagens/093.png",
+        "real": "imagens/haunter.png",
+        "locate": "Evolve Gastly/Haunter",
+        "weakness": [
+            "Ghost",
+            "Dark",
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 94,
+        "name": "Gengar",
+        "type": "Ghost-Poison",
+        "type1": "Ghost",
+        "type2": "Poison",
+        "description": "Often lurking in the shadows, it uses its eerie grin to foil the hearts of its foes.",
+        "image": "imagens/094.png",
+        "real": "imagens/gengar.png",
+        "locate": "Evolve Gastly/Haunter",
+        "weakness": [
+            "Ghost",
+            "Dark",
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 95,
+        "name": "Onix",
+        "type": "Rock-Ground",
+        "type1": "Rock",
+        "type2": "Ground",
+        "description": "This behemoth dwells underground, using its rock-hard body to tunnel through solid stone.",
+        "image": "imagens/095.png",
+        "real": "imagens/onix.png",
+        "locate": "Rock Tunnel, Sevault Canyon, Victory Road",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Fighting",
+            "Ground",
+            "Ice"
+        ]
+    },
+    {
+        "number": 96,
+        "name": "Drowzee",
+        "type": "Psychic",
+        "type1": "Psychic",
+        "description": "It feeds on the dreams of sleeping people, and its eyes reflect eerie patterns.",
+        "image": "imagens/096.png",
+        "real": "imagens/drowzee.png",
+        "locate": "Route 11, Berry Forest",
+        "weakness": [
+            "Bug",
+            "Ghost",
+            "Dark"
+        ]
+    },
+    {
+        "number": 97,
+        "name": "Hypno",
+        "type": "Psychic",
+        "type1": "Psychic",
+        "description": "With a swinging pendulum, it lures and hypnotizes those who gaze into its eyes.",
+        "image": "imagens/097.png",
+        "real": "imagens/hypno.png",
+        "locate": "Berry Forest, Evolve Drowzee",
+        "weakness": [
+            "Bug",
+            "Ghost",
+            "Dark"
+        ]
+    },
+    {
+        "number": 98,
+        "name": "Krabby",
+        "type": "Water",
+        "type1": "Water",
+        "description": "A crab-like Pokemon that snaps its pincers to defend itself and capture prey.",
+        "image": "imagens/098.png",
+        "real": "imagens/krabby.png",
+        "locate": "Route 4, 10, 11, 12, 13, 19, 20, 21, 24, Bond Bridge, Cerulean City, Cinnabar Island, Five Island, Five Isle Meadow, Green Path, Icefall Cave, Kindle Road, Memorial Pillar, One Island, Outcast Island, Pallet Town, Resort Gorgeous, Seafoam Islands, Tanoby Ruins, Trainer Tower, Treasure Beach, Vermilion City, Water Labyrinth, Water Path",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 99,
+        "name": "Kingler",
+        "type": "Water",
+        "type1": "Water",
+        "description": "Its oversized claw swings with tremendous force, making it a fearsome opponent.",
+        "image": "imagens/099.png",
+        "real": "imagens/kingler.png",
+        "locate": "Bond Bridge, Cinnabar Island, Five Island, Five Isle Meadow, Green Path, Icefall Cave, Kindle Road, Memorial Pillar, One Island, Outcast Island, Pallet Town, Resort Gorgeous, Tanoby Ruins, Trainer Tower, Treasure Beach, Water Labyrinth, Water Path, Evolve Krabby",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 100,
+        "name": "Voltorb",
+        "type": "Electric",
+        "type1": "Electric",
+        "description": "Its body resembles a Poke Ball, and it crackles with static electricity.",
+        "image": "imagens/100.png",
+        "real": "imagens/voltorb.png",
+        "locate": "Route 10, Power Plant",
+        "weakness": [
+            "Ground"
+        ]
+    },
+    {
+        "number": 101,
+        "name": "Electrode",
+        "type": "Electric",
+        "type1": "Electric",
+        "description": "Explosive by nature, its volatile body stores dangerous amounts of electrical energy.",
+        "image": "imagens/101.png",
+        "real": "imagens/electrode.png",
+        "locate": "Cerulean Cave, Cinnabar Island, Evolve Voltorb",
+        "weakness": [
+            "Ground"
+        ]
+    },
+    {
+        "number": 102,
+        "name": "Exeggcute",
+        "type": "Grass-Psychic",
+        "type1": "Grass",
+        "type2": "Psychic",
+        "description": "This cluster of eggs works in unison, its many eyes spotting even the slightest movement.",
+        "image": "imagens/102.png",
+        "real": "imagens/exeggcute.png",
+        "locate": "Berry Forest, Safari Zone",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Poison",
+            "Flying",
+            "Bug"
+        ]
+    },
+    {
+        "number": 103,
+        "name": "Exeggutor",
+        "type": "Grass-Psychic",
+        "type1": "Grass",
+        "type2": "Psychic",
+        "description": "Its head resembles a giant coconut, and it uses its psychic power to control plant life.",
+        "image": "imagens/103.png",
+        "real": "imagens/exeggutor.png",
+        "locate": "Evolve Exeggcute",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Poison",
+            "Flying",
+            "Bug"
+        ]
+    },
+    {
+        "number": 104,
+        "name": "Cubone",
+        "type": "Ground",
+        "type1": "Ground",
+        "description": "Wears the skull of its deceased mother, its loneliness fueling its determination.",
+        "image": "imagens/104.png",
+        "real": "imagens/cubone.png",
+        "locate": "Pokemon Tower, Sevault Canyon",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Ice"
+        ]
+    },
+    {
+        "number": 105,
+        "name": "Marowak",
+        "type": "Ground",
+        "type1": "Ground",
+        "description": "A more mature form of Cubone, it wields its bone club with great expertise.",
+        "image": "imagens/105.png",
+        "real": "imagens/marowak.png",
+        "locate": "Sevault Canyon, Victory Road, Evolve Cubone",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Ice"
+        ]
+    },
+    {
+        "number": 106,
+        "name": "Hitmonlee",
+        "type": "Fighting",
+        "type1": "Fighting",
+        "description": "Renowned for its powerful legs, it can deliver an array of swift and strong kicks.",
+        "image": "imagens/106.png",
+        "real": "imagens/hitmonlee.png",
+        "locate": "Saffron City",
+        "weakness": [
+            "Flying",
+            "Psychic",
+            "Fairy"
+        ]
+    },
+    {
+        "number": 107,
+        "name": "Hitmonchan",
+        "type": "Fighting",
+        "type1": "Fighting",
+        "description": "It channels its fist techniques into rapid punches, each hit packing a surprising force.",
+        "image": "imagens/107.png",
+        "real": "imagens/hitmonchan.png",
+        "locate": "Saffron City",
+        "weakness": [
+            "Flying",
+            "Psychic",
+            "Fairy"
+        ]
+    },
+    {
+        "number": 108,
+        "name": "Lickitung",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "Noted for its extremely long tongue, it uses its flexible appendage to explore and capture prey.",
+        "image": "imagens/108.png",
+        "real": "imagens/lickitung.png",
+        "locate": "Route 18",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 109,
+        "name": "Koffing",
+        "type": "Poison",
+        "type1": "Poison",
+        "description": "It stores various gases in its body, which can evolve into lethal toxins if mixed.",
+        "image": "imagens/109.png",
+        "real": "imagens/koffing.png",
+        "locate": "Celadon City, Pokemon Mansion",
+        "weakness": [
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 110,
+        "name": "Weezing",
+        "type": "Poison",
+        "type1": "Poison",
+        "description": "Often floating in polluted areas, its body emits toxic fumes that can overwhelm opponents.",
+        "image": "imagens/110.png",
+        "real": "imagens/weezing.png",
+        "locate": "Pokemon Mansion, Evolve Koffing",
+        "weakness": [
+            "Ground",
+            "Psychic"
+        ]
+    },
+    {
+        "number": 111,
+        "name": "Rhyhorn",
+        "type": "Ground-Rock",
+        "type1": "Ground",
+        "type2": "Rock",
+        "description": "Its rugged exterior is nearly impervious to attacks, though its momentum can be slowed by water.",
+        "image": "imagens/111.png",
+        "real": "imagens/rhyhorn.png",
+        "locate": "Safari Zone",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Fighting",
+            "Ground",
+            "Ice"
+        ]
+    },
+    {
+        "number": 112,
+        "name": "Rhydon",
+        "type": "Ground-Rock",
+        "type1": "Ground",
+        "type2": "Rock",
+        "description": "A tough, rock-skinned Pokemon that defends its territory with massive, crushing force.",
+        "image": "imagens/112.png",
+        "real": "imagens/rhydon.png",
+        "locate": "Evolve Rhyhorn",
+        "weakness": [
+            "Water",
+            "Grass",
+            "Fighting",
+            "Ground",
+            "Ice"
+        ]
+    },
+    {
+        "number": 113,
+        "name": "Chansey",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "Esteemed for its healing qualities, it nurtures the injured with its gentle nature.",
+        "image": "imagens/113.png",
+        "real": "imagens/chansey.png",
+        "locate": "Safari Zone",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 114,
+        "name": "Tangela",
+        "type": "Grass",
+        "type1": "Grass",
+        "description": "Entangled in a mass of vines, it uses its plant-like body to both trap and protect itself.",
+        "image": "imagens/114.png",
+        "real": "imagens/tangela.png",
+        "locate": "Route 21, Cinnabar Island, Treasure Beach",
+        "weakness": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Bug",
+            "Poison"
+        ]
+    },
+    {
+        "number": 115,
+        "name": "Kangaskhan",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "A caring Pokemon, it guards its young fiercely and has enormous strength when provoked.",
+        "image": "imagens/115.png",
+        "real": "imagens/kangaskhan.png",
+        "locate": "Safari Zone",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 116,
+        "name": "Horsea",
+        "type": "Water",
+        "type1": "Water",
+        "description": "Sleek and agile, it maneuvers effortlessly underwater while exhaling a mysterious mist.",
+        "image": "imagens/116.png",
+        "real": "imagens/horsea.png",
+        "locate": "Route 4, 10, 11, 12, 13, 19, 20, 21, 24, Bond Bridge, Cerulean City, Cinnabar Island, Five Island, Five Isle Meadow, Green Path, Icefall Cave, Kindle Road, Memorial Pillar, One Island, Outcast Island, Pallet Town, Resort Gorgeous, Seafoam Islands, Tanoby Ruins, Trainer Tower, Treasure Beach, Vermilion City, Water Labyrinth, Water Path",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 117,
+        "name": "Seadra",
+        "type": "Water",
+        "type1": "Water",
+        "description": "Its tail and fins are as graceful as they are strong, propelling it swiftly through the sea.",
+        "image": "imagens/117.png",
+        "real": "imagens/seadra.png",
+        "locate": "Bond Bridge, Cinnabar Island, Five Island, Five Isle Meadow, Green Path, Icefall Cave, Kindle Road, Memorial Pillar, One Island, Outcast Island, Pallet Town, Resort Gorgeous, Tanoby Ruins, Trainer Tower, Treasure Beach, Water Labyrinth, Water Path, Evolve Horsea",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 118,
+        "name": "Goldeen",
+        "type": "Water",
+        "type1": "Water",
+        "description": "Beautiful in appearance, it uses its elegant fins to dart quickly in streams and ponds.",
+        "image": "imagens/118.png",
+        "real": "imagens/goldeen.png",
+        "locate": "Route 6, 22, 23, 25, Berry Forest, Cape Brink, Cerulean Cave, Four Island, Fuchsia City, Icefall Cave, Ruin Valley, Viridian City, Safari Zone",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 119,
+        "name": "Seaking",
+        "type": "Water",
+        "type1": "Water",
+        "description": "A determined swimmer that uses its hardened scales and sharp horn to fend off attackers.",
+        "image": "imagens/119.png",
+        "real": "imagens/seaking.png",
+        "locate": "Berry Forest, Fuchsia City, Safari Zone, Evolve Goldeen",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 120,
+        "name": "Staryu",
+        "type": "Water",
+        "type1": "Water",
+        "description": "Its star-shaped body can regenerate lost arms; it navigates by using a mysterious core.",
+        "image": "imagens/120.png",
+        "real": "imagens/staryu.png",
+        "locate": "Cinnabar Island, Five Island, Icefall Cave, One Island, Pallet Town, Vermilion City",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 121,
+        "name": "Starmie",
+        "type": "Water-Psychic",
+        "type1": "Water",
+        "type2": "Psychic",
+        "description": "A brilliant core radiates psychic energy, guiding its every move in battle.",
+        "image": "imagens/121.png",
+        "real": "imagens/starmie.png",
+        "locate": "Evolve Staryu",
+        "weakness": [
+            "Electric",
+            "Grass",
+            "Bug",
+            "Ghost"
+        ]
+    },
+    {
+        "number": 122,
+        "name": "Mr. Mime",
+        "type": "Psychic",
+        "type1": "Psychic",
+        "description": "Its miming abilities are so convincing that foes often become mesmerized into inaction.",
+        "image": "imagens/122.png",
+        "real": "imagens/mr_mime.png",
+        "locate": "Route 2",
+        "weakness": [
+            "Bug",
+            "Ghost",
+            "Dark"
+        ]
+    },
+    {
+        "number": 123,
+        "name": "Scyther",
+        "type": "Bug-Flying",
+        "type1": "Bug",
+        "type2": "Flying",
+        "description": "A fearsome predator, it moves with lightning speed and slashes its foes with razor-like arms.",
+        "image": "imagens/123.png",
+        "real": "imagens/scyther.png",
+        "locate": "Celadon City, Safari Zone",
+        "weakness": [
+            "Rock",
+            "Electric",
+            "Fire",
+            "Ice"
+        ]
+    },
+    {
+        "number": 124,
+        "name": "Jynx",
+        "type": "Ice-Psychic",
+        "type1": "Ice",
+        "type2": "Psychic",
+        "description": "Entrancing with its dancing moves, it uses chilling kisses to freeze its victims.",
+        "image": "imagens/124.png",
+        "real": "imagens/jynx.png",
+        "locate": "Cerulean City",
+        "weakness": [
+            "Fire",
+            "Rock",
+            "Bug",
+            "Dark",
+            "Steel"
+        ]
+    },
+    {
+        "number": 125,
+        "name": "Electabuzz",
+        "type": "Electric",
+        "type1": "Electric",
+        "description": "Crackling with energy, it discharges electric shocks that can stun even the toughest opponents.",
+        "image": "imagens/125.png",
+        "real": "imagens/electabuzz.png",
+        "locate": "Power Plant",
+        "weakness": [
+            "Ground"
+        ]
+    },
+    {
+        "number": 126,
+        "name": "Magmar",
+        "type": "Fire",
+        "type1": "Fire",
+        "description": "Its body temperature exceeds that of molten rock; even a simple touch can cause burns.",
+        "image": "imagens/126.png",
+        "real": "imagens/magmar.png",
+        "locate": "Mt. Ember",
+        "weakness": [
+            "Water",
+            "Ground",
+            "Rock"
+        ]
+    },
+    {
+        "number": 127,
+        "name": "Pinsir",
+        "type": "Bug",
+        "type1": "Bug",
+        "description": "It uses its massive pincers for slashing; its grip is known to be incredibly powerful.",
+        "image": "imagens/127.png",
+        "real": "imagens/pinsir.png",
+        "locate": "Celadon City, Safari Zone",
+        "weakness": [
+            "Flying",
+            "Rock",
+            "Fire"
+        ]
+    },
+    {
+        "number": 128,
+        "name": "Tauros",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "A wild and aggressive Pokemon, it charges with unstoppable force when provoked.",
+        "image": "imagens/128.png",
+        "real": "imagens/tauros.png",
+        "locate": "Safari Zone",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 129,
+        "name": "Magikarp",
+        "type": "Water",
+        "type1": "Water",
+        "description": "Infamously weak and known for its splash, it has the potential for mighty transformation.",
+        "image": "imagens/129.png",
+        "real": "imagens/magikarp.png",
+        "locate": "Route 4, 6, 10, 11, 12, 13, 19, 20, 21, 22, 23, 24, 25, Berry Forest, Bond Bridge, Cape Brink, Celadon City, Cerulean Cave, Cerulean City, Cinnabar Island, Five Island, Five Isle Meadow, Four Island, Fuchsia City, Green Path, Icefall Cave, Kindle Road, Memorial Pillar, One Island, Outcast Island, Pallet Town, Resort Gorgeous, Ruin Valley, Seafoam Islands, Tanoby Ruins, Trainer Tower, Treasure Beach, Vermilion City, Viridian City, Water Labyrinth, Water Path, Safari Zone",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 130,
+        "name": "Gyarados",
+        "type": "Water-Flying",
+        "type1": "Water",
+        "type2": "Flying",
+        "description": "Once docile, its fury is legendary; it unleashes torrents of water and devastating bites.",
+        "image": "imagens/130.png",
+        "real": "imagens/gyarados.png",
+        "locate": "Route 4, 6, 10, 11, 12, 13, 19, 20, 21, 22, 23, 24, 25, Berry Forest, Bond Bridge, Cape Brink, Cerulean Cave, Cerulean City, Cinnabar Island, Five Island, Five Isle Meadow, Four Island, Fuchsia City, Green Path, Icefall Cave, Kindle Road, Memorial Pillar, One Island, Outcast Island, Pallet Town, Resort Gorgeous, Ruin Valley, Seafoam Islands, Tanoby Ruins, Trainer Tower, Treasure Beach, Vermilion City, Viridian City, Water Labyrinth, Water Path",
+        "weakness": [
+            "Electric",
+            "Rock",
+            "Ice"
+        ]
+    },
+    {
+        "number": 131,
+        "name": "Lapras",
+        "type": "Water-Ice",
+        "type1": "Water",
+        "type2": "Ice",
+        "description": "Gentle and intelligent, it often carries people across the water while singing enchanting songs.",
+        "image": "imagens/131.png",
+        "real": "imagens/lapras.png",
+        "locate": "Icefall Cave, Silph Co.",
+        "weakness": [
+            "Electric",
+            "Grass",
+            "Rock",
+            "Fighting"
+        ]
+    },
+    {
+        "number": 132,
+        "name": "Ditto",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "Capable of transforming into any other Pokemon, its unique ability is as mysterious as it is rare.",
+        "image": "imagens/132.png",
+        "real": "imagens/ditto.png",
+        "locate": "Route 13, 14, 15, Cerulean Cave, Pokemon Mansion",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 133,
+        "name": "Eevee",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "Its unstable genetic makeup allows it to evolve in multiple ways under certain conditions.",
+        "image": "imagens/133.png",
+        "real": "imagens/eevee.png",
+        "locate": "Celadon City",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 134,
+        "name": "Vaporeon",
+        "type": "Water",
+        "type1": "Water",
+        "description": "Genetically evolved from Eevee using a water stone, it can melt even the hardest obstacles.",
+        "image": "imagens/134.png",
+        "real": "imagens/vaporeon.png",
+        "locate": "Evolve Eevee",
+        "weakness": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
+        "number": 135,
+        "name": "Jolteon",
+        "type": "Electric",
+        "type1": "Electric",
+        "description": "Bursting with volatile energy, it can launch lightning-fast strikes at its foes.",
+        "image": "imagens/135.png",
+        "real": "imagens/jolteon.png",
+        "locate": "Evolve Eevee",
+        "weakness": [
+            "Ground"
+        ]
+    },
+    {
+        "number": 136,
+        "name": "Flareon",
+        "type": "Fire",
+        "type1": "Fire",
+        "description": "Its body temperature can reach levels rivaling the sun; a close-range encounter can be devastating.",
+        "image": "imagens/136.png",
+        "real": "imagens/flareon.png",
+        "locate": "Evolve Eevee",
+        "weakness": [
+            "Water",
+            "Ground",
+            "Rock"
+        ]
+    },
+    {
+        "number": 137,
+        "name": "Porygon",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "A man-made Pokemon that exists entirely in cyberspace; its digital nature perplexes researchers.",
+        "image": "imagens/137.png",
+        "real": "imagens/porygon.png",
+        "locate": "Celadon City",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 138,
+        "name": "Omanyte",
+        "type": "Rock-Water",
+        "type1": "Rock",
+        "type2": "Water",
+        "description": "A prehistoric Pokemon revived from fossil, it clings to life with its spiral shell.",
+        "image": "imagens/138.png",
+        "real": "imagens/omanyte.png",
+        "locate": "Cinnabar Island",
+        "weakness": [
+            "Electric",
+            "Grass",
+            "Fighting",
+            "Ground",
+            "Ice"
+        ]
+    },
+    {
+        "number": 139,
+        "name": "Omastar",
+        "type": "Rock-Water",
+        "type1": "Rock",
+        "type2": "Water",
+        "description": "Evolved from Omanyte, its tentacles and hard shell make it a formidable underwater opponent.",
+        "image": "imagens/139.png",
+        "real": "imagens/omastar.png",
+        "locate": "Evolve Omanyte",
+        "weakness": [
+            "Electric",
+            "Grass",
+            "Fighting",
+            "Ground",
+            "Ice"
+        ]
+    },
+    {
+        "number": 140,
+        "name": "Kabuto",
+        "type": "Rock-Water",
+        "type1": "Rock",
+        "type2": "Water",
+        "description": "An ancient Pokemon recovered from fossils, its hard exterior hides surprising agility.",
+        "image": "imagens/140.png",
+        "real": "imagens/kabuto.png",
+        "locate": "Cinnabar Island",
+        "weakness": [
+            "Electric",
+            "Grass",
+            "Fighting",
+            "Ground",
+            "Ice"
+        ]
+    },
+    {
+        "number": 141,
+        "name": "Kabutops",
+        "type": "Rock-Water",
+        "type1": "Rock",
+        "type2": "Water",
+        "description": "Evolved from Kabuto, it slashes its foes with its sharp claws and scythe-like arms.",
+        "image": "imagens/141.png",
+        "real": "imagens/kabutops.png",
+        "locate": "Evolve Kabuto",
+        "weakness": [
+            "Electric",
+            "Grass",
+            "Fighting",
+            "Ground",
+            "Ice"
+        ]
+    },
+    {
+        "number": 142,
+        "name": "Aerodactyl",
+        "type": "Rock-Flying",
+        "type1": "Rock",
+        "type2": "Flying",
+        "description": "A ferocious, prehistoric Pokemon, it soars through the skies with razor-sharp precision.",
+        "image": "imagens/142.png",
+        "real": "imagens/aerodactyl.png",
+        "locate": "Cinnabar Island",
+        "weakness": [
+            "Water",
+            "Electric",
+            "Ice",
+            "Rock"
+        ]
+    },
+    {
+        "number": 143,
+        "name": "Snorlax",
+        "type": "Normal",
+        "type1": "Normal",
+        "description": "Famed for its enormous size and insatiable appetite, it sleeps through nearly everything.",
+        "image": "imagens/143.png",
+        "real": "imagens/snorlax.png",
+        "locate": "Route 12, 16",
+        "weakness": [
+            "Fighting"
+        ]
+    },
+    {
+        "number": 144,
+        "name": "Articuno",
+        "type": "Ice-Flying",
+        "type1": "Ice",
+        "type2": "Flying",
+        "description": "A legendary bird whose frosty wings can freeze anything; its cry sends shivers down spines.",
+        "image": "imagens/144.png",
+        "real": "imagens/articuno.png",
+        "locate": "Seafoam Islands",
+        "weakness": [
+            "Fire",
+            "Rock",
+            "Electric",
+            "Steel"
+        ]
+    },
+    {
+        "number": 145,
+        "name": "Zapdos",
+        "type": "Electric-Flying",
+        "type1": "Electric",
+        "type2": "Flying",
+        "description": "This legendary bird crackles with electricity, striking with bolts that illuminate the sky.",
+        "image": "imagens/145.png",
+        "real": "imagens/zapdos.png",
+        "locate": "Power Plant",
+        "weakness": [
+            "Ground",
+            "Ice",
+            "Rock"
+        ]
+    },
+    {
+        "number": 146,
+        "name": "Moltres",
+        "type": "Fire-Flying",
+        "type1": "Fire",
+        "type2": "Flying",
+        "description": "A majestic and rare bird, its burning wings leave trails of fire in its flight.",
+        "image": "imagens/146.png",
+        "real": "imagens/moltres.png",
+        "locate": "Mt. Ember",
+        "weakness": [
+            "Water",
+            "Electric",
+            "Rock"
+        ]
+    },
+    {
+        "number": 147,
+        "name": "Dratini",
+        "type": "Dragon",
+        "type1": "Dragon",
+        "description": "A serpentine Pokemon that dwells in deep waters; its evolution is a rare and coveted treasure.",
+        "image": "imagens/147.png",
+        "real": "imagens/dratini.png",
+        "locate": "Celadon City, Safari Zone",
+        "weakness": [
+            "Ice",
+            "Dragon"
+        ]
+    },
+    {
+        "number": 148,
+        "name": "Dragonair",
+        "type": "Dragon",
+        "type1": "Dragon",
+        "description": "Elegant and graceful, it exudes a mystical aura as it glides through the water.",
+        "image": "imagens/148.png",
+        "real": "imagens/dragonair.png",
+        "locate": "Safari Zone, Evolve Dratini",
+        "weakness": [
+            "Ice",
+            "Dragon"
+        ]
+    },
+    {
+        "number": 149,
+        "name": "Dragonite",
+        "type": "Dragon-Flying",
+        "type1": "Dragon",
+        "type2": "Flying",
+        "description": "Benevolent yet powerful, this Pokemon can traverse oceans and continents with ease.",
+        "image": "imagens/149.png",
+        "real": "imagens/dragonite.png",
+        "locate": "Evolve Dratini/Dragonair",
+        "weakness": [
+            "Ice",
+            "Rock",
+            "Dragon"
+        ]
+    },
+    {
+        "number": 150,
+        "name": "Mewtwo",
+        "type": "Psychic",
+        "type1": "Psychic",
+        "description": "An artificially created Pokemon of unparalleled power, its psychic prowess is feared worldwide.",
+        "image": "imagens/150.png",
+        "real": "imagens/mewtwo.png",
+        "locate": "Cerulean Cave",
+        "weakness": [
+            "Bug",
+            "Ghost",
+            "Dark"
+        ]
+    },
+    {
+        "number": 151,
+        "name": "Mew",
+        "type": "Psychic",
+        "type1": "Psychic",
+        "description": "A rare and elusive Pokemon, it is said to hold the genetic codes that hold the secrets of all Pokemon.",
+        "image": "imagens/151.png",
+        "real": "imagens/mew.png",
+        "locate": "Trade/migrate from another game",
+        "weakness": [
+            "Bug",
+            "Ghost",
+            "Dark"
+        ]
+    }
+]
