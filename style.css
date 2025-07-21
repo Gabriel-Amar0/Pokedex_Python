@@ -1,0 +1,404 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ef4633;
+  background-image: url("icon.png");
+	background-repeat: repeat;
+}
+.header {
+  align-content: center;      
+  font-family: 'Segoe UI', sans-serif;          
+  font-style: italic;
+  margin: 2% auto;             
+  max-width: 98%;
+  background: linear-gradient(to right, #0c2a4d, #003b72, #0c2a4d);
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+form, select {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+select {
+  border: 2px solid #1B1717;
+  padding: 5px 2px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #1B1717;
+  outline: none;
+  text-align: center;
+  text-align-last: center;
+  align-content: center;
+  font-weight: bold;
+}
+
+input[type="text"]::placeholder {
+  color: #1B1717;
+  text-align: center;
+  font-weight: bold;
+}
+
+select option {
+  color: #1B1717;
+  background-color: white;
+  text-align: center;
+  text-align-last: center;
+  font-weight: bold;
+}
+
+input[type="text"]:focus,
+select:focus {
+  box-shadow: 0 0 10px #1B1717;
+}
+
+.card {
+  border: 2px solid #1B1717;
+  background-color: #F7EBB5;     
+  border-radius: 10px;           
+  padding: 25px;                 
+  margin: 2% auto;             
+  max-width: 95%;              
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 5); 
+}
+
+.cardimg {
+  border: 2px solid #1B1717;
+  background-color: #ffffff;     
+  border-radius: 10px;           
+  padding: 25px;                 
+  margin: 2% auto;             
+  width: 400px;    
+  height: 400px;          
+  align-content: center;
+}
+
+#pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.pokemon {
+  border: 2px solid #1B1717;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 2px;
+  width: 200px;
+  background: white;
+  transition: transform 0.2s;
+}
+
+.pokemon:hover {
+  transform: scale(1.10);
+  background-color: whitesmoke;
+  background-image: url("/static/pokeicondetail.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 120px 120px;
+}
+
+.pokemon img {
+  width: 100px;
+}
+
+.pokemon-detail {
+  text-align: justify;
+  margin-top: 30px;
+  border: 2px solid #1B1717;
+  background-color: #ffffff; 
+  border-radius: 10px;           
+  padding: 25px;                 
+  margin: 2% auto;             
+  max-width: 95%;              
+  height: 400px;
+}
+
+.PokeName{
+  text-decoration: none;
+  color: #1B1717;
+  font-weight: bold;
+}
+
+.button-home {
+  position: absolute;
+  top: 7,5%;
+  left: 40px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #1B1717;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 0px;
+  font-weight: bold;
+  border: 2px solid #1B1717;
+  box-shadow: 0 0 10px #1B1717;
+}
+
+.button-search {
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #ffffff;
+  color: #1B1717;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 0px; 
+  font-weight: bold;
+  border: 2px solid #1B1717;
+  box-shadow: 0 0 10px #1B1717;
+}
+
+.button-next {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #1B1717;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 0px; 
+  font-weight: bold;
+  border: 2px solid #1B1717;
+  box-shadow: 0 0 10px #1B1717;
+}
+
+.button-home:hover {
+  background-color: #981F29;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.button-search:hover {
+  background-color: #981F29;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.button-next:hover {
+  background-color: #981F29;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.Normal {
+  background-color: #aaaa99;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Fire {
+  background-color: #ff4422;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Water {
+  background-color: #3399ff;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Electric {
+  background-color: #ffcc33;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Grass {
+  background-color: #77cc55;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Ice {
+  background-color: #66ccff;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Fighting {
+  background-color: #bb5544;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Poison {
+  background-color: #aa5599;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Ground {
+  background-color: #ddbb55;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Flying {
+  background-color: #8899ff;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Psychic {
+  background-color: #ff5599;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Bug {
+  background-color: #aabb22;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Rock {
+  background-color: #bbaa66;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Ghost {
+  background-color: #6666bb;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Dragon {
+  background-color: #7766ee;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Dark {
+  background-color: #775544;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Steel {
+  background-color: #aaaabb;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
+
+.Fairy {
+  background-color: #ee99ee;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #1B1717;
+  font-weight: bold;
+}
