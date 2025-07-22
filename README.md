@@ -26,10 +26,10 @@ O sistema inclui:
 
 ## Equipe de Desenvolvimento
 
-| Nome | Email |
-|---|---|
-| José Carlos Pereira Dantas | carlosjose.dantas@aluno.uece.br |
-| Antonio Gabriel Amaro De Assis | gabriel.amaro@aluno.uece.br |
+| Nome |
+|---|
+| José Carlos Pereira Dantas |
+| Antonio Gabriel Amaro De Assis |
 
 ---
 
@@ -48,7 +48,7 @@ O sistema inclui:
 │   ├── pokedex.html                      # Página principal da Pokédex
 │   └── pokemon.html                      # Página de detalhes do Pokémon
 ├── app.py                                # Backend (Flask)
-└── pokedex.json                         # Base de dados dos Pokémon
+└── pokedex.json                          # Base de dados dos Pokémon
 ```
 
 ---
